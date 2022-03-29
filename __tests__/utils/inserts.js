@@ -67,7 +67,7 @@ const insertInProgress = async (page, { homeClub = 'Corinthias', awayClub = 'int
  * @param {{homeClub: String, awayClub:string, homeGoals:Number, awayGoals:number}} DadosInsert
  * @returns {Promise<{ id: number, homeTeam: number, homeTeamGoals: number,  awayTeam: number, awayTeamGoals: number, inProgress: boolean } | {message: string}>}
  */
-const insertFinished = async (page, { homeClub = 'Corinthias', awayClub = 'internacional', homeGoals = 2 , awayGoals = 1 }) => {
+const insertFinished = async (page, { homeClub = 'Corinthians', awayClub = 'internacional', homeGoals = 2 , awayGoals = 1 }) => {
 
   const match = await insertInProgress(page, {homeClub, awayClub, homeGoals, awayGoals})
   const finishMatchButton = await page.$(pageMatchSettings.finishMatchButton);
