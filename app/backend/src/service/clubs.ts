@@ -1,12 +1,12 @@
 import Clubs from '../database/models/ClubModel';
 
-interface IClub {
+export interface IClub {
   id: number,
   clubName: string,
 }
 
 const findAllClubs = async () => {
-  const allClubs = await Clubs.findAll();
+  const allClubs = await Clubs.findAll() as IClub[];
 
   return allClubs;
 };
@@ -20,5 +20,4 @@ const findClubById = async (searchId: number) => {
 export {
   findAllClubs,
   findClubById,
-  IClub,
 };
