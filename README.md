@@ -8,5 +8,7 @@
 
 ### Acesse: http://localhost:3000/
 
+  #### Credenciais para logar como admin:
+
     login: admin@admin.com
     pass: secret_admin
