@@ -1,4 +1,4 @@
-Para iniciar o projeto localmente:
+## Para iniciar o projeto localmente:
 
 Faça o clone do projeto no seu computador e execute os comandos abaixo:
 
