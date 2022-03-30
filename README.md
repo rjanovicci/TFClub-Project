@@ -1,6 +1,6 @@
-Como iniciar o projeto localmente?
+Para iniciar o projeto localmente:
 
-    Faça o clone do projeto no seu computador
+Faça o clone do projeto no seu computador
 
     Execute o comando npm install
 
