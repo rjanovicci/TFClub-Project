@@ -1,12 +1,12 @@
 Para iniciar o projeto localmente:
 
-Faça o clone do projeto no seu computador
+Faça o clone do projeto no seu computador e execute os comandos abaixo:
 
-    Execute o comando npm install
+    npm install
 
-    Execute o comando npm run compose:up
-  
-    Acesse: http://localhost:3000/
-    
+    npm run compose:up
+
+Acesse: http://localhost:3000/
+
     login: admin@admin.com
     pass: secret_admin
